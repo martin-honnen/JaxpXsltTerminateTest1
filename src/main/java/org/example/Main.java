@@ -19,6 +19,7 @@ public class Main {
         Main main = new Main();
         main.transform("sample2.xml", "sheet1.xsl");
         System.out.println();
+        main = new Main();
         main.transform("sample1.xml", "sheet1.xsl");
 
     }
